@@ -1,6 +1,6 @@
 "use client"
 import Navbar from "@/app/components/navbar";
-import { useState } from "react";
+import { cloneElement, useState } from "react";
 
 export default function Layout({
   children,
@@ -11,7 +11,7 @@ export default function Layout({
   return (
     <>
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
-      {children}
+      {cloneElement(<div>{children}</div> , {activeTab})}
     </>
   );
 }
