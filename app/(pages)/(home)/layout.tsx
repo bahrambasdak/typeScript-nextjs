@@ -11,7 +11,7 @@ export default function Layout({
   return (
     <>
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
-      {cloneElement(<div>{children}</div> , {activeTab})}
+      {children}
     </>
   );
 }

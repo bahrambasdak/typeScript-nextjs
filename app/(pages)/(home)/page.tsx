@@ -1,15 +1,11 @@
 import Image from "next/image";
-import Post from "../post/page";
+import Post from "../posts/page";
 
 export default function Home() {
 
-
-
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Post activeTab={'tab1'}/>
-
+      Home
     </main>
   );
 }
