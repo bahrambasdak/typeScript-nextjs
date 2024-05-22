@@ -1,5 +1,6 @@
 import AnimationText from "../buttons/animationText";
 import { constantText } from "./constant";
+type tabs = string;
 
 const Navbar = ({
   activeTab = "tab1",

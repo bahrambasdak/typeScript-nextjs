@@ -1,4 +1,21 @@
-export const constantText = {
+type constant = {
+    fa:{
+        tab1:string,
+        tab2:string,
+        tab3:string,
+        tab4:string,
+        tab5:string,
+
+    }
+    en:{
+        tab1:string,
+        tab2:string,
+        tab3:string,
+        tab4:string,
+        tab5:string,
+    }
+}
+export const constantText:constant = {
     fa:{
         tab1:'تب 1',
         tab2:'تب 2',
