@@ -7,10 +7,8 @@ export default function Layout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [activeTab,setActiveTab] = useState('');
   return (
     <>
-      <Navbar activeTab={activeTab} setActiveTab={setActiveTab}/>
       {children}
     </>
   );

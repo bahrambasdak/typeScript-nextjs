@@ -35,10 +35,10 @@ const config: Config = {
 
       },
       animation: {
-        letterUp1: 'letterUp1 0.5s ease-out',
-        letterDown1: 'letterDown1 0.5s ease-out',
-        letterUp2: 'letterUp2 0.5s ease-out',
-        letterDown2: 'letterDown2 0.5s ease-out',
+        letterUp1: 'letterUp1 0.3s ease-in-out',
+        letterDown1: 'letterDown1 0.3s ease-in-out',
+        letterUp2: 'letterUp2 0.3s ease-in-out',
+        letterDown2: 'letterDown2 0.3s ease-in-out',
 
       }
     },
