@@ -13,6 +13,34 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        letterUp1: {
+          '0%': { transform: 'translateY(1em)' },
+          '100%': { transform: 'translateY(0px)' },
+
+        },
+        letterDown1: {
+          '0%': { transform: 'translateY(-1em)' },
+          '100%': { transform: 'translateY(0px)' },
+        },
+        letterUp2: {
+          '0%': { transform: 'translateY(0px)' },
+          '100%': { transform: 'translateY(-1em)' },
+
+        },
+        letterDown2: {
+          '0%': { transform: 'translateY(0em)' },
+          '100%': { transform: 'translateY(1em)' },
+        },
+
+      },
+      animation: {
+        letterUp1: 'letterUp1 0.5s ease-out',
+        letterDown1: 'letterDown1 0.5s ease-out',
+        letterUp2: 'letterUp2 0.5s ease-out',
+        letterDown2: 'letterDown2 0.5s ease-out',
+
+      }
     },
   },
   plugins: [],
