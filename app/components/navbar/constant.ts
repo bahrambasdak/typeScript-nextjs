@@ -1,21 +1,5 @@
-type constant = {
-    fa:{
-        tab1:string,
-        tab2:string,
-        tab3:string,
-        tab4:string,
-        tab5:string,
 
-    }
-    en:{
-        tab1:string,
-        tab2:string,
-        tab3:string,
-        tab4:string,
-        tab5:string,
-    }
-}
-export const constantText:constant = {
+export const constantText:Record<string,Record<string,string>> = {
     fa:{
         tab1:'تب 1',
         tab2:'تب 2',
