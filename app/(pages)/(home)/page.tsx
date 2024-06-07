@@ -15,7 +15,7 @@ export default function Home() {
           <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <AnimationText
         text="Project"
-        styles={{ height: "100px", backgroundColor: "red", fontSize: "50px" }}
+        styles={{ height: "100px", fontSize: "50px" }}
       ></AnimationText>
     </main>
     
