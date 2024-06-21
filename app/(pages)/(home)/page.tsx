@@ -17,6 +17,10 @@ export default function Home() {
         text="Project"
         styles={{ height: "100px", fontSize: "50px" }}
       ></AnimationText>
+            <AnimationText
+        text="Project"
+        styles={{ height: "100px", fontSize: "50px" }}
+      ></AnimationText>
     </main>
     
     </>
