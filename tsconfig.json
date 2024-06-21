@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      // "@/components/*": ["components/*"],
+      "@/components/*": ["components/*"],
       "@/*": ["./*"]
     },
 
