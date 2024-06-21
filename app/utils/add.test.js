@@ -1,4 +1,4 @@
-const { add } = require("./add");
+import { add } from "./add";
 
 
 test('adds 1 + 2 to equal 3', () => {
