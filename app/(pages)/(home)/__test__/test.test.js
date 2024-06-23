@@ -6,3 +6,8 @@ it('renders homepage unchanged', () => {
   const { container } = render(<Page />)
   expect(container).toMatchSnapshot()
 })
+
+it('renders ', () => {
+    const { container } = render(<Page />)
+    expect(container).toContain('main')
+  })
