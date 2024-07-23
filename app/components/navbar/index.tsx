@@ -1,17 +1,21 @@
+import { useRouter } from "next/navigation";
 import AnimationText from "../buttons/animationText";
 import { constantText } from "./constant";
+import { useState } from "react";
 type tabs = string;
 
 const Navbar = ({
-  activeTab = "tab1",
-  setActiveTab = (tab: string) => {},
   lan = "en",
+
 }) => {
   const text = constantText[lan];
+  const router = useRouter();
+  const [activeTab, setActiveTab] = useState("tab1");
+
   return (
     <div className="flex w-full px-20 py-10  h-12 justify-around items-center  gap-10 transition-all">
       <button
-        onClick={() => setActiveTab("tab1")}
+        onClick={() => {setActiveTab("tab1");router.push('/posts')}}
         className="p-4  rounded-md grow transition-all"
         style={{
           backgroundColor: activeTab === "tab1" ? "blue" : "gray",
