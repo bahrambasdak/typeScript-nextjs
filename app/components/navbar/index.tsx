@@ -28,7 +28,7 @@ const Navbar = ({
         ></AnimationText>
       </button>
       <button
-        onClick={() => setActiveTab("tab2")}
+        onClick={() => {setActiveTab("tab2");router.push('/about-us')}}
         className="p-4  rounded-md grow transition-all"
         style={{
           backgroundColor: activeTab === "tab2" ? "blue" : "gray",
